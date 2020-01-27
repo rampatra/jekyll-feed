@@ -5,12 +5,12 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require "jekyll-feed/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "jekyll-feed"
+  spec.name          = "rams-jekyll-feed"
   spec.version       = Jekyll::Feed::VERSION
-  spec.authors       = ["Ben Balter"]
-  spec.email         = ["ben.balter@github.com"]
-  spec.summary       = "A Jekyll plugin to generate an Atom feed of your Jekyll posts"
-  spec.homepage      = "https://github.com/jekyll/jekyll-feed"
+  spec.authors       = ["Ram Patra"]
+  spec.email         = ["hi@rampatra.com"]
+  spec.summary       = "A Jekyll plugin to generate an Atom feed of your Jekyll posts without the hard limit of 10 posts."
+  spec.homepage      = "https://github.com/rampatra/jekyll-feed"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
